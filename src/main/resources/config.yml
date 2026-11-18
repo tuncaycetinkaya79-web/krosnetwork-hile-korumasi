@@ -1,0 +1,39 @@
+prefix: "&c[Krosnetwork] &7"
+
+punish:
+  enabled: true
+  flags-to-punish: 5
+  flag-reset-minutes: 5
+  lift-ticks: 50
+  kick-message: "&cYakalandın hileci!"
+
+checks:
+  fly:
+    enabled: true
+    buffer: 6
+  speed:
+    enabled: true
+    buffer: 6
+    max-horizontal: 0.6
+  reach:
+    enabled: true
+    max-distance: 4.3
+  killaura:
+    enabled: true
+    max-angle: 100
+  aim:
+    enabled: true
+    buffer: 4
+  elytratarget:
+    enabled: true
+    buffer: 3
+  timer:
+    enabled: true
+    max-packets: 28
+  jesus:
+    enabled: true
+  step:
+    enabled: true
+  autoclicker:
+    enabled: true
+    max-cps: 25
