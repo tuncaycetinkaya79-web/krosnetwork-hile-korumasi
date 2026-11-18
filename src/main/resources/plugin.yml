@@ -1,0 +1,17 @@
+name: KrosnetworkHileKorumasi
+main: net.krosnetwork.hile.Main
+version: 1.0
+api-version: "1.21.4"
+author: Krosnetwork
+description: Krosnetwork Hile Koruması
+commands:
+  hile:
+    description: Krosnetwork Hile Koruması komutu
+    usage: /hile reload
+permissions:
+  krosnetwork.hile.bypass:
+    default: op
+  krosnetwork.hile.alert:
+    default: op
+  krosnetwork.hile.admin:
+    default: op
